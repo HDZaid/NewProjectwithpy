@@ -3,7 +3,7 @@ from tkinter import *
 import random
 
 def obvio():
-    messagebox.showinfo(message = "JAJAJA SABÍA QUE SI QUERIAS SER MI AMIGO :3", title="")
+    messagebox.showinfo(message = "sabia que aceptarias :3 ahora somos amig@s por SIEMPRE :D", title="")
     root.destroy() 
     
 def Button_hover(event):
@@ -25,13 +25,13 @@ root.geometry("900x500")
 root.configure(background='#F4D03F')
 root.title('RESPONDEME')
 
-label_0 = Label(root, text= "¿QUIERES SER MI AMIKO?", bg = '#F4D03F', fg = 'black', width=0, font=("Comic Sans MS", 40))
+label_0 = Label(root, text= "¿QUIERES SER MI AMIG@?", bg = '#F4D03F', fg = 'black', width=0, font=("Comic Sans MS", 40))
 label_0.place(x=100, y=70)
 
 my_button1 = Button(root, text="CHI UꞷU", width=7, height=1, font=("Comic Sans MS", 30), bg = '#FF4141', fg='white', command=obvio)
 my_button1.place(x=200, y=220)
 
-my_button2 = Button(root, text="ÑO UNU", width=7, height=1, font=("Comic Sans MS", 30), bg = '#FF4141', fg='white')
+my_button2 = Button(root, text="ÑO", width=5, height=1, font=("Comic Sans MS", 30), bg = '#FF4141', fg='white')
 my_button2.place(x=550, y=220)
 
 my_button2.bind("<Enter>", Button_hover)
