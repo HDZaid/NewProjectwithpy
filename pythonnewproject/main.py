@@ -1,6 +1,7 @@
 from tkinter import font, messagebox
 from tkinter import *
 import random
+import sys
 
 def obvio():
     messagebox.showinfo(message = "sabia que aceptarias :3 ahora somos amig@s por SIEMPRE :D", title="")
@@ -40,3 +41,5 @@ my_button2.bind("<Leave>", exit_)
 root.protocol("WM_DELETE_WINDOW", on_closing)
 
 root.mainloop()
+
+sys.exit(0)
